@@ -1,0 +1,42 @@
+package atividade1;
+
+import java.util.Scanner;
+
+public class calendario {
+     public static String meses(int numero) {
+
+
+         String l;
+         switch (numero){
+             case  1: l = "janeiro";
+                 break;
+             case  2: l = "fev";
+                 break;
+             case  3: l = "março";
+                 break;
+             case  4: l = "abril";
+                 break;
+             case  5: l = "maio";
+                 break;
+             case  6: l = "junho";
+                 break;
+             case  7: l = "julho";
+                 break;
+             case  8: l = "agosto";
+                 break;
+             case  9: l = "setembro";
+                 break;
+             case  10: l = "outubro";
+                 break;
+             case  11: l = "novembro";
+                 break;
+             case  12: l = "dezembro";
+                 break;
+             default: l = "errou";
+                 break;
+         }
+         return  l ;
+    }
+
+
+}
