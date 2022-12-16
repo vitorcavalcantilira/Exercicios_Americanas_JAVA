@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class eDia {
+public class calculo{
     public static void main(String[] args) {
+    
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Informe a Quantidade de dias: ");
             int minutos = sc.nextInt();
